@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title>Info101 Builder - Establishing a Web Site</title>
+		</head>
+		<body>
+                <h1>Animals Trying To Stay Awake Compilation</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/t3LNgKkv-e8?start=180" frameborder="0" allowfullscreen></iframe>
+		</body>
+
+        <body>
+                <h1>Avenged Sevenfold - So Far Away (video)</h1>
+                <button onclick="playVid()" type="button">Play Video</button>
+                <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+                <br>
+                <video id="myVideo" width="640" height="350" controls>
+                    <source src="Avenged Sevenfold - So Far Away (HD).mp4" type="video/mp4">
+                </controls>
+                </video>
+        <script> 
+                var vid = document.getElementById("myVideo"); 
+                function playVid() { 
+                    vid.play(); 
+                } 
+                function pauseVid() { 
+                    vid.pause(); 
+                } 
+        </script> 
+        </body>
+
+        <body>
+                <h1>Adam Levine - Lost Stars (audio)</h1>
+                <button onclick="playAud()" type="button">Play Audio</button>
+                <button onclick="pauseAud()" type="button">Pause Audio</button><br> 
+                <br>
+                <audio id="myAudio" controls>
+                    <source src="Adam Levine - Lost Stars.mp3" type="audio/mpeg">
+                </controls>
+                </audio>
+        <script> 
+                var aud = document.getElementById("myAudio"); 
+                function playAud() { 
+                    aud.play(); 
+                } 
+                function pauseAud() { 
+                    aud.pause(); 
+                } 
+        </script> 
+        </body>
+</html>
